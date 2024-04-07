@@ -1,0 +1,21 @@
+{
+  "name": "lbms",
+  "version": "1.0.0",
+  "description": "Making a Library Book Management System that helps to Keep the Track of all the books in the Library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Library",
+    "Book",
+    "Management",
+    "System"
+  ],
+  "author": "Keshav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0"
+  }
+}
