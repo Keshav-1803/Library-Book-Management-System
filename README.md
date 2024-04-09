@@ -3,13 +3,6 @@
 
 This Node.js server provides a basic Library Book Management System to manage books in a library. It includes CRUD (Create, Read, Update, Delete) operations for books stored in a MongoDB database.
 
-
-Clone the repository:
-   ```bash
-   git clone https://github.com/Keshav-1803/Library-Book-Management-System.git
-   ```
-   The server will start on `http://localhost:8000`.
-
 ### Endpoints
 The LBMS backend provides the following endpoints:
 
