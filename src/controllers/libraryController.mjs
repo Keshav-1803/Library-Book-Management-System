@@ -17,7 +17,7 @@ const addBooks = async (req,res) => {
          AddedBooks : addedbooks
       });
    } catch (error) {
-      return res.status().send({Status : 400, Error : "Invalid request data"})
+      return res.status(400).send({Status : 400, Error : "Invalid request data"})
    }
 };
 
