@@ -1,3 +1,4 @@
+---
 ### Library Book Management System (LBMS) Backend
 
 This Node.js server provides a basic Library Book Management System to manage books in a library. It includes CRUD (Create, Read, Update, Delete) operations for books stored in a MongoDB database.
@@ -7,12 +8,12 @@ To run the LBMS backend server locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Keshav-1803/Library-Book-Management-System.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd <project_directory>
+   cd scr
    ```
 
 3. Install dependencies:
@@ -148,22 +149,23 @@ The MongoDB database schema for the books collection is as follows:
 ### Project Structure
 ```
 .
-├── controllers
-│   └── libraryController.mjs
-├── models
-│   └── libraryModel.mjs
-├── routes
-│   └── route.mjs
-├── index.mjs
-└── package.json
+├── node_modules
+├── src
+    ├── controllers
+    │   └── libraryController.mjs
+    ├── models
+    │   └── libraryModel.mjs
+    ├── routes
+    │   └── route.mjs
+    ├── index.mjs
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ### Notes
 - Make sure to have MongoDB installed and running on your machine.
 - Update the MongoDB connection string in `index.mjs` with your database credentials.
 
-This Library Book Management System backend provides a simple and efficient way to manage books in a library. Feel free to explore and customize it according
-
- to your needs.
-
-For any questions or issues, please reach out!
+This Library Book Management System backend provides a simple and efficient way to manage books in a library. Feel free to explore and customize it according to your needs.
+---
